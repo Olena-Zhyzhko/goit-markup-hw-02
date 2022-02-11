@@ -32,10 +32,11 @@ font-family: 'Roboto', sans-serif; */
 body {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
+  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  background-color: var(--light-color);
+  background-color: var(--primery-bg-color);
 }
 
 /* Общие стили */
@@ -54,7 +55,13 @@ body {
 }
 
 /* Хедер */
+
+.header {
+  background-color: var(--light-color);
+}
 .logo {
+  font-family: Raleway;
+  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
@@ -65,12 +72,18 @@ body {
   color: var(--accent-color);
 }
 
+.nav-link.active {
+  color: var(--accent-color);
+}
 .nav-item,
 .header-contacts-list {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+
+.nav-item > a {
   color: var(--secondary-text-color);
 }
 
@@ -108,4 +121,74 @@ body {
 .hero-link:hover,
 .hero-link:focus {
   background-color: var(--btn-hover);
+}
+
+/* Преимущества */
+.featurs-item {
+  width: 270px;
+  height: 101px;
+}
+
+.featurs-title {
+  font-family: Roboto;
+  font-weight: bold;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
+}
+
+.featurs-text {
+  color: var(--primery-text-color);
+}
+
+/* Команда */
+.title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--secondary-text-color);
+}
+
+.team {
+  background-color: var(--secondary-bg-color);
+}
+
+.team-list-item {
+  width: 270px;
+  height: 368px;
+}
+
+.team-list-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--secondary-text-color);
+}
+
+.team-list-position {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--primery-text-color);
+}
+
+/* Футер */
+.footer {
+  background-color: var(--dark-bg-color);
+}
+
+.logo-light {
+  color: var(--light-color);
+}
+
+.address {
+  color: var(--light-color);
+  font-style: normal;
+  text-decoration: none;
+}
+
+.footer-contacts-link {
+  color: var(--stile-text-color);
 }
