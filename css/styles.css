@@ -72,7 +72,7 @@ body {
   color: var(--accent-color);
 }
 
-.nav-link.active {
+.nav-link.current {
   color: var(--accent-color);
 }
 .nav-item,
@@ -106,7 +106,9 @@ body {
   color: var(--light-color);
 }
 
-.hero-link {
+.hero-btn {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
@@ -124,13 +126,8 @@ body {
 }
 
 /* Преимущества */
-.featurs-item {
-  width: 270px;
-  height: 101px;
-}
 
 .featurs-title {
-  font-family: Roboto;
   font-weight: bold;
   line-height: 1.14;
   text-transform: uppercase;
@@ -152,11 +149,6 @@ body {
 
 .team {
   background-color: var(--secondary-bg-color);
-}
-
-.team-list-item {
-  width: 270px;
-  height: 368px;
 }
 
 .team-list-name {
@@ -191,4 +183,39 @@ body {
 
 .footer-contacts-link {
   color: var(--stile-text-color);
+}
+
+/* Портфолио */
+.filter-btn {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+  background-color: var(--secondary-bg-colorr);
+}
+
+.projects-item {
+  background-color: var(--light-color);
+}
+
+.projects-link {
+  text-decoration: none;
+}
+
+.projects-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--secondary-text-color);
+}
+
+.projects-text {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--primery-text-color);
 }
