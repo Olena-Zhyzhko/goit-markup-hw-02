@@ -21,7 +21,7 @@ font-family: 'Roboto', sans-serif; */
   --primery-text-color: #757575;
   --secondary-text-color: #212121;
   --light-color: #ffffff;
-  --stile-text-color: rgba(255, 255, 255, 0.6);
+  --style-text-color: rgba(255, 255, 255, 0.6);
   --accent-color: #2196f3;
   --btn-hover: #188ce8;
   --primery-bg-color: #e5e5e5;
@@ -61,8 +61,7 @@ body {
 }
 .logo {
   font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   color: #000000;
@@ -107,9 +106,8 @@ body {
 }
 
 .hero-btn {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: bold;
+  font-family: inherit;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   display: flex;
@@ -118,17 +116,18 @@ body {
   letter-spacing: 0.06em;
   color: var(--light-color);
   background: var(--accent-color);
+  cursor: pointer;
 }
 
 .hero-link:hover,
 .hero-link:focus {
   background-color: var(--btn-hover);
+  cursor: pointer;
 }
 
 /* Преимущества */
 
 .featurs-title {
-  font-weight: bold;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--secondary-text-color);
@@ -140,7 +139,6 @@ body {
 
 /* Команда */
 .title {
-  font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -149,6 +147,10 @@ body {
 
 .team {
   background-color: var(--secondary-bg-color);
+}
+
+.team-list-item {
+  background-color: var(--light-color);
 }
 
 .team-list-name {
@@ -182,20 +184,20 @@ body {
 }
 
 .footer-contacts-link {
-  color: var(--stile-text-color);
+  color: var(--style-text-color);
 }
 
 /* Портфолио */
 .filter-btn {
-  font-family: Roboto, sans-serif;
-  font-style: normal;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
-  background-color: var(--secondary-bg-colorr);
+  background-color: var(--secondary-bg-color);
+  cursor: pointer;
 }
 
 .projects-item {
@@ -207,7 +209,6 @@ body {
 }
 
 .projects-title {
-  font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
