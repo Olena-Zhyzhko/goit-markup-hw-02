@@ -34,7 +34,6 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  background-color: var(--primery-bg-color);
 }
 
 /* Общие стили */
@@ -117,15 +116,19 @@ body {
   cursor: pointer;
 }
 
-.hero-link:hover,
-.hero-link:focus {
+.hero-btn:hover,
+.hero-btn:focus {
   background-color: var(--btn-hover);
   cursor: pointer;
 }
 
 /* Преимущества */
 
+.featurs {
+  background-color: var(--primery-bg-color);
+}
 .featurs-title {
+  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--secondary-text-color);
@@ -135,6 +138,9 @@ body {
   color: var(--primery-text-color);
 }
 
+.activity {
+  background-color: var(--primery-bg-color);
+}
 /* Команда */
 .title {
   font-size: 36px;
@@ -186,6 +192,7 @@ body {
 }
 
 /* Портфолио */
+
 .filter-btn {
   font-family: inherit;
   font-weight: 500;
@@ -196,6 +203,10 @@ body {
   color: var(--secondary-text-color);
   background-color: var(--secondary-bg-color);
   cursor: pointer;
+}
+.filter-btn:hover,
+.filter-btn:focus {
+  background-color: var(--accent-color);
 }
 
 .projects-item {
