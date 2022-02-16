@@ -125,7 +125,6 @@ body {
 /* Преимущества */
 
 .featurs {
-  background-color: var(--primery-bg-color);
 }
 .featurs-title {
   font-size: 14px;
@@ -137,9 +136,8 @@ body {
 .featurs-text {
   color: var(--primery-text-color);
 }
-
+/* Виды деятельности */
 .activity {
-  background-color: var(--primery-bg-color);
 }
 /* Команда */
 .title {
@@ -202,11 +200,12 @@ body {
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
   background-color: var(--secondary-bg-color);
-  cursor: pointer;
 }
 .filter-btn:hover,
 .filter-btn:focus {
   background-color: var(--accent-color);
+  color: var(--light-color);
+  cursor: pointer;
 }
 
 .projects-item {
